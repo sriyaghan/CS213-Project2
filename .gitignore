@@ -1,0 +1,7 @@
+out/
+myOutput.txt
+*.zip
+.DS_Store
+*.class
+.idea/
+lib/

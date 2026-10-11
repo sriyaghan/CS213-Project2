@@ -1,0 +1,498 @@
+Parking Management System is in operation.
+
+a is an invalid command!
+r is an invalid command!
+o is an invalid command!
+c is an invalid command!
+e is an invalid command!
+x is an invalid command!
+l is an invalid command!
+p is an invalid command!
+pp is an invalid command!
+pd is an invalid command!
+ph is an invalid command!
+pf is an invalid command!
+Vehicle list is empty - no vehicle is registered.
+Deck list is empty - no deck is open.
+Deck list is empty - no deck is open.
+Deck list is empty - no deck is open.
+122-KVQ - invalid license plate format.
+Z22-KVQ [Sedan] registered.
+SZ2-KVQ - invalid license plate format.
+S2Z-KVQ - invalid license plate format.
+S222KVQ - invalid license plate format.
+S22-1VQ - invalid license plate format.
+S22-K1Q - invalid license plate format.
+S22-KV1 - invalid license plate format.
+S22aKVQ - invalid license plate format.
+?22-KVQ - invalid license plate format.
+S22-KV# - invalid license plate format.
+S22-!VQ - invalid license plate format.
+S22-K-Q - invalid license plate format.
+S22-KVQQ - invalid license plate format.
+Exception [Register] - missing data tokens.
+S22-KVQ [Sedan] registered.
+S22-KVQ is already registered.
+s22-kvq is already registered.
+** List of registered vehicles, ordered by license plate **
+S22-KVQ [Sedan]
+Z22-KVQ [Sedan]
+** end of list **
+S23-KVQ does not exist; cannot be unregistered.
+Exception [Unregister] - missing data tokens.
+Exception [Open] - For input string: "A100"
+Exception [Open] - For input string: "100B"
+Exception [Open] - For input string: "1?0"
+bridgewate - invalid location.
+hr1 - invalid operation hours
+7 - exceeds the maximum deck capacity 6
+Exception [Open] - For input string: "ab2"
+Deck#100 opened.
+Deck#100 - is already open.
+Deck#200 opened.
+Exception [Open] - missing data tokens.
+Deck#300 opened.
+Deck#234 opened.
+Deck#111 opened.
+Deck#110 opened.
+Deck#301 opened.
+Deck#2 opened.
+** List of decks, ordered by county/deck number **
+Deck#301@PRINCETON[open 6:30 ~ 18:30] [capacity 5] [0 vehicles] [Mercer]
+Deck#111@EDISON[open 5:00 ~ 21:30] [capacity 3] [0 vehicles] [Middlesex]
+Deck#234@PISCATAWAY[open 6:30 ~ 18:30] [capacity 4] [0 vehicles] [Middlesex]
+Deck#300@PISCATAWAY[open 5:00 ~ 21:30] [capacity 3] [0 vehicles] [Middlesex]
+Deck#2@MORRISTOWN[open 7:00 ~ 18:00] [capacity 5] [0 vehicles] [Morris]
+Deck#100@BRIDGEWATER[open 7:00 ~ 18:00] [capacity 4] [0 vehicles] [Somerset]
+Deck#200@BRIDGEWATER[open 7:00 ~ 18:00] [capacity 3] [0 vehicles] [Somerset]
+Deck#110@CLARK[open 5:00 ~ 21:30] [capacity 2] [0 vehicles] [Union]
+** end of list **
+Exception [Close] - For input string: "XXX"
+Exception [Close] - missing data tokens.
+Deck#302 - does not exist.
+Deck#301 - closed.
+Deck#301 - is already closed.
+Deck#110 - closed.
+Deck#111 - closed.
+** List of decks, ordered by county/deck number **
+Deck#234@PISCATAWAY[open 6:30 ~ 18:30] [capacity 4] [0 vehicles] [Middlesex]
+Deck#300@PISCATAWAY[open 5:00 ~ 21:30] [capacity 3] [0 vehicles] [Middlesex]
+Deck#2@MORRISTOWN[open 7:00 ~ 18:00] [capacity 5] [0 vehicles] [Morris]
+Deck#100@BRIDGEWATER[open 7:00 ~ 18:00] [capacity 4] [0 vehicles] [Somerset]
+Deck#200@BRIDGEWATER[open 7:00 ~ 18:00] [capacity 3] [0 vehicles] [Somerset]
+** end of list **
+Deck#110 - was closed, now reopened.
+Deck#111 - was closed, now reopened.
+Deck#301 - was closed, now reopened.
+Exception [Open] - missing data tokens.
+** List of decks, ordered by county/deck number **
+Deck#301@PRINCETON[open 6:30 ~ 18:30] [capacity 5] [0 vehicles] [Mercer]
+Deck#111@EDISON[open 5:00 ~ 21:30] [capacity 3] [0 vehicles] [Middlesex]
+Deck#234@PISCATAWAY[open 6:30 ~ 18:30] [capacity 4] [0 vehicles] [Middlesex]
+Deck#300@PISCATAWAY[open 5:00 ~ 21:30] [capacity 3] [0 vehicles] [Middlesex]
+Deck#2@MORRISTOWN[open 7:00 ~ 18:00] [capacity 5] [0 vehicles] [Morris]
+Deck#100@BRIDGEWATER[open 7:00 ~ 18:00] [capacity 4] [0 vehicles] [Somerset]
+Deck#200@BRIDGEWATER[open 7:00 ~ 18:00] [capacity 3] [0 vehicles] [Somerset]
+Deck#110@CLARK[open 5:00 ~ 21:30] [capacity 2] [0 vehicles] [Union]
+** end of list **
+vehicles loaded.
+vehicles loaded.
+** Notifications, ordered by plate **
+E87-JUS [Sedan]
+G58-GLX [Sedan]
+P17-ORS [Pickup]
+P32-OMX [Pickup]
+P53-BJD [Pickup]
+P62-AFM [Pickup]
+P64-HNL [Pickup]
+P66-HPY [Pickup]
+P68-YCN [Pickup]
+P75-QWI [Pickup]
+R63-XKI [Sedan]
+S22-KVQ [Sedan]
+    ** notifications ** 
+    Deck#301 - closed.
+    Deck#110 - closed.
+    Deck#111 - closed.
+S57-RXK [Sedan]
+V17-MQG [Van]
+V21-SEZ [Van]
+V35-MLH [Van]
+V42-RVE [Van]
+V46-OEF [Van]
+V56-BTW [Van]
+V83-YNM [Van]
+Z22-KVQ [Sedan]
+    ** notifications ** 
+    Deck#301 - closed.
+    Deck#110 - closed.
+    Deck#111 - closed.
+Z78-MMG [Sedan]
+** end of list **
+E87-JUS - no notifications.
+S22-KVQ [Sedan] unregistered.
+S22-KVQ does not exist; cannot be unregistered.
+Exception [Enter] - For input string: "11x"
+Exception [Enter] - missing data tokens.
+Deck#112 - does not exist.
+Deck#110 - closed.
+Deck#110 - is closed for parking.
+Deck#110 - was closed, now reopened.
+PP5-QWI - invalid license plate format.
+P75-QWQ [Pickup] - is not registered.
+122-KVQ - invalid license plate format.
+Z23-KVQ does not exist.
+** Notifications for Z22-KVQ [Sedan] **
+    ** notifications ** 
+    Deck#301 - closed.
+    Deck#110 - closed.
+    Deck#111 - closed.
+    Deck#110 - closed.
+** end of list **
+24 - invalid hour.
+60 - invalid minute.
+Error entering - not within the operating hour: 5:00 ~ 21:30
+Error entering - not within the operating hour: 6:30 ~ 18:30
+Error entering - not within the operating hour: 6:30 ~ 18:30
+Error entering - not within the operating hour: 6:30 ~ 18:30
+2026-00-09 - invalid calendar date.
+2026-13-09 - invalid calendar date.
+2026-02-29 - invalid calendar date.
+2026-03-32 - invalid calendar date.
+2026-04-31 - invalid calendar date.
+P75-QWI [Pickup] entered Deck#110 on 2026-03-09 10:48
+Error entering - P75-QWI [Pickup] is already in a deck.
+Z78-MMG [Sedan] entered Deck#110 on 2026-03-09 10:49
+Deck#110 - is full.
+** Notifications for Z22-KVQ [Sedan] **
+    ** notifications ** 
+    Deck#301 - closed.
+    Deck#110 - closed.
+    Deck#111 - closed.
+    Deck#110 - closed.
+    Deck# 110 is full.
+** end of list **
+Cannot be unregistered - P75-QWI [Pickup] is in a deck.
+Error exiting - P53-BJD [Pickup] is not in a deck.
+Px3-BJD - invalid license plate format.
+Error exiting - P53-xJD [Pickup] is not in a deck.
+Exception [Exit] - missing data tokens.
+24 - invalid hour.
+60 - invalid minute.
+Error exiting - not within the operating hour: 5:00 ~ 21:30
+Error exiting - not within the operating hour: 5:00 ~ 21:30
+Error exiting - not within the operating hour: 5:00 ~ 21:30
+Exiting time 2026-03-09 09:50 before entering time 2026-03-09 10:48
+Deck#110 - is full.
+P75-QWI [Pickup] exited Deck#110 on 2026-03-09 11:50
+    * Parking Fee: $ 8 [entered: 2026-03-09 10:48]
+Error exiting - P75-QWI [Pickup] is not in a deck.
+Cannot be unregistered - P75-QWI [Pickup] has parking history.
+** Notifications for Z22-KVQ [Sedan] **
+    ** notifications ** 
+    Deck#301 - closed.
+    Deck#110 - closed.
+    Deck#111 - closed.
+    Deck#110 - closed.
+    Deck# 110 is full.
+** end of list **
+V17-MQG [Van] entered Deck#234 on 2026-03-09 13:30
+Error exiting - not within the operating hour: 6:30 ~ 18:30
+Invalid exiting time - exceeds two days.
+Invalid exiting time - exceeds two days.
+V17-MQG [Van] exited Deck#234 on 2026-03-09 18:20
+    * Parking Fee: $ 15 [entered: 2026-03-09 13:30]
+** List of decks, ordered by county/deck number **
+Deck#301@PRINCETON[open 6:30 ~ 18:30] [capacity 5] [0 vehicles] [Mercer]
+Deck#111@EDISON[open 5:00 ~ 21:30] [capacity 3] [0 vehicles] [Middlesex]
+Deck#234@PISCATAWAY[open 6:30 ~ 18:30] [capacity 4] [0 vehicles] [Middlesex]
+Deck#300@PISCATAWAY[open 5:00 ~ 21:30] [capacity 3] [0 vehicles] [Middlesex]
+Deck#2@MORRISTOWN[open 7:00 ~ 18:00] [capacity 5] [0 vehicles] [Morris]
+Deck#100@BRIDGEWATER[open 7:00 ~ 18:00] [capacity 4] [0 vehicles] [Somerset]
+Deck#200@BRIDGEWATER[open 7:00 ~ 18:00] [capacity 3] [0 vehicles] [Somerset]
+Deck#110@CLARK[open 5:00 ~ 21:30] [capacity 2] [1 vehicles] [Union]
+** end of list **
+P85-QWI does not exist.
+P75-QWU does not exist.
+** Parking history for P75-QWI [Pickup] **
+     [entered Deck# 110: 2026-03-09 10:48][exited: 2026-03-09 11:50]
+** end of list **
+Z78-MMG [Sedan] exited Deck#110 on 2026-03-10 10:00
+    * Parking Fee: $ 28 [entered: 2026-03-09 10:49]
+Error exiting - Z78-MMG [Sedan] is not in a deck.
+E87-JUS [Sedan] entered Deck#300 on 2026-03-10 20:08
+E87-JUS [Sedan] exited Deck#300 on 2026-03-11 10:30
+    * Parking Fee: $ 30 [entered: 2026-03-10 20:08]
+G58-GLX [Sedan] entered Deck#300 on 2026-03-28 19:30
+G58-GLX [Sedan] exited Deck#300 on 2026-03-28 21:00
+    * Parking Fee: $ 4 [entered: 2026-03-28 19:30]
+P17-ORS [Pickup] entered Deck#300 on 2026-03-30 12:15
+P64-HNL [Pickup] entered Deck#300 on 2026-03-30 16:25
+P64-HNL [Pickup] exited Deck#300 on 2026-03-30 18:25
+    * Parking Fee: $ 8 [entered: 2026-03-30 16:25]
+Error entering - not within the operating hour: 6:30 ~ 18:30
+Error entering - not within the operating hour: 5:00 ~ 21:30
+E87-JUS [Sedan] entered Deck#301 on 2026-04-12 10:39
+P62-AFM [Pickup] entered Deck#301 on 2026-04-12 12:30
+V83-YNM [Van] entered Deck#301 on 2026-04-12 14:05
+E87-JUS [Sedan] exited Deck#301 on 2026-04-12 16:39
+    * Parking Fee: $ 12 [entered: 2026-04-12 10:39]
+V83-YNM [Van] exited Deck#301 on 2026-04-12 18:30
+    * Parking Fee: $ 15 [entered: 2026-04-12 14:05]
+P32-OMX [Pickup] entered Deck#100 on 2026-04-17 09:12
+Z78-MMG [Sedan] entered Deck#100 on 2026-04-17 11:11
+E87-JUS [Sedan] entered Deck#100 on 2026-04-17 11:12
+P75-QWI [Pickup] entered Deck#100 on 2026-04-17 16:58
+P32-OMX [Pickup] exited Deck#100 on 2026-04-17 17:55
+    * Parking Fee: $ 30 [entered: 2026-04-17 09:12]
+P75-QWI [Pickup] exited Deck#100 on 2026-04-18 12:00
+    * Parking Fee: $ 50 [entered: 2026-04-17 16:58]
+S57-RXK [Sedan] entered Deck#200 on 2026-05-09 18:00
+V56-BTW [Van] entered Deck#111 on 2026-05-20 05:52
+P66-HPY [Pickup] entered Deck#111 on 2026-05-22 16:12
+P75-QWI [Pickup] entered Deck#200 on 2026-05-28 10:00
+P75-QWI [Pickup] exited Deck#200 on 2026-05-28 17:25
+    * Parking Fee: $ 30 [entered: 2026-05-28 10:00]
+V83-YNM [Van] entered Deck#200 on 2026-06-01 07:00
+P75-QWI [Pickup] entered Deck#2 on 2026-06-04 14:53
+V35-MLH [Van] entered Deck#2 on 2026-06-13 10:03
+V42-RVE [Van] entered Deck#234 on 2026-06-17 12:55
+P32-OMX [Pickup] entered Deck#100 on 2026-06-19 07:55
+Error entering - P32-OMX [Pickup] is already in a deck.
+P68-YCN [Pickup] entered Deck#110 on 2026-07-02 07:00
+V17-MQG [Van] entered Deck#2 on 2026-07-11 15:15
+V46-OEF [Van] entered Deck#2 on 2026-07-12 11:15
+V17-MQG [Van] exited Deck#2 on 2026-07-12 12:20
+    * Parking Fee: $ 43 [entered: 2026-07-11 15:15]
+Error entering - not within the operating hour: 7:00 ~ 18:00
+V21-SEZ [Van] entered Deck#2 on 2026-07-13 16:10
+V17-MQG [Van] entered Deck#2 on 2026-07-13 17:15
+Deck#2 - is full.
+V21-SEZ [Van] exited Deck#2 on 2026-07-13 17:40
+    * Parking Fee: $ 6 [entered: 2026-07-13 16:10]
+R63-XKI [Sedan] entered Deck#2 on 2026-07-14 10:15
+** List of decks, ordered by county/deck number **
+Deck#301@PRINCETON[open 6:30 ~ 18:30] [capacity 5] [1 vehicles] [Mercer]
+Deck#111@EDISON[open 5:00 ~ 21:30] [capacity 3] [2 vehicles] [Middlesex]
+Deck#234@PISCATAWAY[open 6:30 ~ 18:30] [capacity 4] [1 vehicles] [Middlesex]
+Deck#300@PISCATAWAY[open 5:00 ~ 21:30] [capacity 3] [1 vehicles] [Middlesex]
+Deck#2@MORRISTOWN[open 7:00 ~ 18:00] [capacity 5] [5 vehicles] [Morris]
+Deck#100@BRIDGEWATER[open 7:00 ~ 18:00] [capacity 4] [3 vehicles] [Somerset]
+Deck#200@BRIDGEWATER[open 7:00 ~ 18:00] [capacity 3] [2 vehicles] [Somerset]
+Deck#110@CLARK[open 5:00 ~ 21:30] [capacity 2] [1 vehicles] [Union]
+** end of list **
+** List of vehicles in Deck# 100, ordered by plate **
+E87-JUS [Sedan] [entered: 2026-04-17 11:12][exited: null]
+P32-OMX [Pickup] [entered: 2026-06-19 07:55][exited: null]
+Z78-MMG [Sedan] [entered: 2026-04-17 11:11][exited: null]
+** end of list **
+** List of vehicles in Deck# 300, ordered by plate **
+P17-ORS [Pickup] [entered: 2026-03-30 12:15][exited: null]
+** end of list **
+** List of vehicles in Deck# 234, ordered by plate **
+V42-RVE [Van] [entered: 2026-06-17 12:55][exited: null]
+** end of list **
+** Parking history for E87-JUS [Sedan] **
+     [entered Deck# 300: 2026-03-10 20:08][exited: 2026-03-11 10:30]
+     [entered Deck# 301: 2026-04-12 10:39][exited: 2026-04-12 16:39]
+** end of list **
+** Parking history for P75-QWI [Pickup] **
+     [entered Deck# 110: 2026-03-09 10:48][exited: 2026-03-09 11:50]
+     [entered Deck# 100: 2026-04-17 16:58][exited: 2026-04-18 12:00]
+     [entered Deck# 200: 2026-05-28 10:00][exited: 2026-05-28 17:25]
+** end of list **
+R63-XKI - no parking history.
+** Parking history for all vehicles, ordered by plate/timestamp **
+E87-JUS [Sedan]
+     [entered Deck# 300: 2026-03-10 20:08][exited: 2026-03-11 10:30]
+     [entered Deck# 301: 2026-04-12 10:39][exited: 2026-04-12 16:39]
+G58-GLX [Sedan]
+     [entered Deck# 300: 2026-03-28 19:30][exited: 2026-03-28 21:00]
+P32-OMX [Pickup]
+     [entered Deck# 100: 2026-04-17 09:12][exited: 2026-04-17 17:55]
+P64-HNL [Pickup]
+     [entered Deck# 300: 2026-03-30 16:25][exited: 2026-03-30 18:25]
+P75-QWI [Pickup]
+     [entered Deck# 110: 2026-03-09 10:48][exited: 2026-03-09 11:50]
+     [entered Deck# 100: 2026-04-17 16:58][exited: 2026-04-18 12:00]
+     [entered Deck# 200: 2026-05-28 10:00][exited: 2026-05-28 17:25]
+V17-MQG [Van]
+     [entered Deck# 234: 2026-03-09 13:30][exited: 2026-03-09 18:20]
+     [entered Deck# 2: 2026-07-11 15:15][exited: 2026-07-12 12:20]
+V21-SEZ [Van]
+     [entered Deck# 2: 2026-07-13 16:10][exited: 2026-07-13 17:40]
+V83-YNM [Van]
+     [entered Deck# 301: 2026-04-12 14:05][exited: 2026-04-12 18:30]
+Z78-MMG [Sedan]
+     [entered Deck# 110: 2026-03-09 10:49][exited: 2026-03-10 10:00]
+** end of parking history **
+** Parking fees, ordered by deck number **
+Deck#2
+    ** Fees collected: $ 49
+Deck#100
+    ** Fees collected: $ 80
+Deck#110
+    ** Fees collected: $ 36
+Deck#200
+    ** Fees collected: $ 30
+Deck#234
+    ** Fees collected: $ 15
+Deck#300
+    ** Fees collected: $ 42
+Deck#301
+    ** Fees collected: $ 27
+** end of list **
+** Notifications, ordered by plate **
+E87-JUS [Sedan]
+    ** notifications ** 
+    Deck#110 - closed.
+    Deck# 110 is full.
+    Deck# 100 is full.
+    Deck# 2 is full.
+    Deck# 2 is full.
+G58-GLX [Sedan]
+    ** notifications ** 
+    Deck#110 - closed.
+    Deck# 110 is full.
+    Deck# 100 is full.
+    Deck# 2 is full.
+    Deck# 2 is full.
+P17-ORS [Pickup]
+    ** notifications ** 
+    Deck#110 - closed.
+    Deck# 110 is full.
+    Deck# 100 is full.
+    Deck# 2 is full.
+    Deck# 2 is full.
+P32-OMX [Pickup]
+    ** notifications ** 
+    Deck#110 - closed.
+    Deck# 110 is full.
+    Deck# 100 is full.
+    Deck# 2 is full.
+    Deck# 2 is full.
+P53-BJD [Pickup]
+    ** notifications ** 
+    Deck#110 - closed.
+    Deck# 110 is full.
+    Deck# 100 is full.
+    Deck# 2 is full.
+    Deck# 2 is full.
+P62-AFM [Pickup]
+    ** notifications ** 
+    Deck#110 - closed.
+    Deck# 110 is full.
+    Deck# 100 is full.
+    Deck# 2 is full.
+    Deck# 2 is full.
+P64-HNL [Pickup]
+    ** notifications ** 
+    Deck#110 - closed.
+    Deck# 110 is full.
+    Deck# 100 is full.
+    Deck# 2 is full.
+    Deck# 2 is full.
+P66-HPY [Pickup]
+    ** notifications ** 
+    Deck#110 - closed.
+    Deck# 110 is full.
+    Deck# 100 is full.
+    Deck# 2 is full.
+    Deck# 2 is full.
+P68-YCN [Pickup]
+    ** notifications ** 
+    Deck#110 - closed.
+    Deck# 110 is full.
+    Deck# 100 is full.
+    Deck# 2 is full.
+    Deck# 2 is full.
+P75-QWI [Pickup]
+    ** notifications ** 
+    Deck#110 - closed.
+    Deck# 110 is full.
+    Deck# 100 is full.
+    Deck# 2 is full.
+    Deck# 2 is full.
+R63-XKI [Sedan]
+    ** notifications ** 
+    Deck#110 - closed.
+    Deck# 110 is full.
+    Deck# 100 is full.
+    Deck# 2 is full.
+    Deck# 2 is full.
+S57-RXK [Sedan]
+    ** notifications ** 
+    Deck#110 - closed.
+    Deck# 110 is full.
+    Deck# 100 is full.
+    Deck# 2 is full.
+    Deck# 2 is full.
+V17-MQG [Van]
+    ** notifications ** 
+    Deck#110 - closed.
+    Deck# 110 is full.
+    Deck# 100 is full.
+    Deck# 2 is full.
+    Deck# 2 is full.
+V21-SEZ [Van]
+    ** notifications ** 
+    Deck#110 - closed.
+    Deck# 110 is full.
+    Deck# 100 is full.
+    Deck# 2 is full.
+    Deck# 2 is full.
+V35-MLH [Van]
+    ** notifications ** 
+    Deck#110 - closed.
+    Deck# 110 is full.
+    Deck# 100 is full.
+    Deck# 2 is full.
+    Deck# 2 is full.
+V42-RVE [Van]
+    ** notifications ** 
+    Deck#110 - closed.
+    Deck# 110 is full.
+    Deck# 100 is full.
+    Deck# 2 is full.
+    Deck# 2 is full.
+V46-OEF [Van]
+    ** notifications ** 
+    Deck#110 - closed.
+    Deck# 110 is full.
+    Deck# 100 is full.
+    Deck# 2 is full.
+    Deck# 2 is full.
+V56-BTW [Van]
+    ** notifications ** 
+    Deck#110 - closed.
+    Deck# 110 is full.
+    Deck# 100 is full.
+    Deck# 2 is full.
+    Deck# 2 is full.
+V83-YNM [Van]
+    ** notifications ** 
+    Deck#110 - closed.
+    Deck# 110 is full.
+    Deck# 100 is full.
+    Deck# 2 is full.
+    Deck# 2 is full.
+Z22-KVQ [Sedan]
+    ** notifications ** 
+    Deck#301 - closed.
+    Deck#110 - closed.
+    Deck#111 - closed.
+    Deck#110 - closed.
+    Deck# 110 is full.
+    Deck# 100 is full.
+    Deck# 2 is full.
+    Deck# 2 is full.
+Z78-MMG [Sedan]
+    ** notifications ** 
+    Deck#110 - closed.
+    Deck# 110 is full.
+    Deck# 100 is full.
+    Deck# 2 is full.
+    Deck# 2 is full.
+** end of list **
+q is an invalid command!
+Parking Management System is terminated.
